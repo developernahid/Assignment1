@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+    margin: 20px 0px 20px 0px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+}
+
+#hero-section{
+    display: flex;
+    margin: 3%;
+}
+.hero-text{
+    padding-top: 10%;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    background-color: chocolate;
+    color: white;
+}
+.robot-image{
+    display: flex;
+    justify-content: center;
+}
+.robot-image img{
+    border-radius: 50%;
+    height: 80%;
+}
+.card-bg{
+    background-color: rgb(250, 199, 199);
+    padding: 5%;
+}
+.card-section{
+  display: flex;
+  gap: 10px;
+}
+
+.card-text{
+    width: 33%;
+}
+.card-section img{
+    height: 50%;
+    width: 90%;
+}
+.review{
+    text-align: center;
+    color: chocolate;
+}
+
+.desription{
+    display: flex;
+    padding: 0px 50px 0px 50px;
+    gap: 10px;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* justify-content: center;  */
+}
+.reviewer-photo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.name{
+    text-align: center;
+}
+#client_review{
+    background-color: honeydew;
+    padding: 5%;
+}
+#footer-bg{
+    background-color: rgb(6, 3, 41);
+    padding: 5%;
+
+}
+.footer-text{
+color: aliceblue;
+display: flex;
+justify-content: space-between;
+}
+#social a{
+ text-decoration: none;
+ color: coral;
+}
